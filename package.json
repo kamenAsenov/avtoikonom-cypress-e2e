@@ -1,0 +1,18 @@
+{
+  "name": "avtoikonom-partners-e2e",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cypress + TypeScript E2E automation project for the Avtoikonom partner lifecycle workflow.",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test:e2e": "cypress run --browser chrome",
+    "test:e2e:headed": "cypress run --browser chrome --headed",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "cypress": "^15.18.0",
+    "typescript": "^5.8.3"
+  }
+}
